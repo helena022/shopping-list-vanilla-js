@@ -57,6 +57,7 @@ li {
   font-family: "Kalam", cursive;
   color: #3a454e;
   text-transform: capitalize;
+  word-break: break-all;
 }
 .btn-remove {
   /*display: none;*/
