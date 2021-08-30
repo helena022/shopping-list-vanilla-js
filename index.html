@@ -12,7 +12,7 @@
         <div class="container">
             <div class="shopping-list">
                 <h4>Shopping List</h4>
-                <ul>
+                <ul id="list-items">
                     <li><input type="checkbox"><span class="item">Bread</span></li>
                     <li><input type="checkbox"><span class="item">Milk</span></li>
                     <li><input type="checkbox"><span class="item">Fishsticks</span></li>
@@ -21,7 +21,7 @@
                 </ul>
                 <div class="input-field">
                     <input type="text" id="add-input" placeholder="Add New Item"/>
-                    <button id="add-item">&check;</button>
+                    <button id="add-item" onclick="addItem()">&check;</button>
                 </div>
                 <div class="footer">Copyright &copy; 2021 Helena V.</div>
             </div>
