@@ -22,9 +22,8 @@ body {
 }
 .shopping-list {
   color: #222;
-  font-size: 22px;
   width: 600px;
-  background-color: lightyellow;
+  background-color: #ffffe0;
   border: 1px solid #d3d3d3;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
@@ -54,9 +53,46 @@ li {
 }
 .item {
   padding-left: 10px;
+  font-size: 22px;
   font-family: "Kalam", cursive;
   color: #3a454e;
   text-transform: capitalize;
+}
+.input-field {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #a9ccc9;
+}
+#add-input {
+  font-size: 22px;
+  color: #3a454e;
+  font-family: "Kalam", cursive;
+  border: none;
+  background-color: #ffffe0;
+  width: 250px;
+}
+/* remove outline on input focus */
+textarea:focus,
+input:focus {
+  outline: none;
+}
+*:focus {
+  outline: none;
+}
+#add-item {
+  margin: 15px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #6fc7bf;
+  border: none;
+}
+#add-item:hover {
+  background-color: #589f98;
+}
+#add-item:active {
+  -webkit-box-shadow: inset 1px 1px 5px #333;
+  -moz-box-shadow: inset 1px 1px 5px #333;
+  box-shadow: inset 1px 1px 5px #333;
 }
 .footer {
   text-align: center;
