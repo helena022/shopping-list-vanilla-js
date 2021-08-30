@@ -13,10 +13,10 @@
             <div class="shopping-list">
                 <h4>Shopping List</h4>
                 <ul id="list-items">
-                    <li><input type="checkbox"><span class="item">Bread</span></li>
-                    <li><input type="checkbox"><span class="item">Eggs</span></li>
-                    <li><input type="checkbox"><span class="item">Milk</span></li>
-                    <li><input type="checkbox"><span class="item">Cookies</span></li>
+                    <li><input type="checkbox"><span class="item">Bread</span><button class="btn-remove" onClick="return this.parentNode.remove();">X</button></li>
+                    <li><input type="checkbox"><span class="item">Eggs</span><button class="btn-remove" onClick="return this.parentNode.remove();">X</button></li>
+                    <li><input type="checkbox"><span class="item">Milk</span><button class="btn-remove" onClick="return this.parentNode.remove();">X</button></li>
+                    <li><input type="checkbox"><span class="item">Cookies</span><button class="btn-remove" onClick="return this.parentNode.remove();">X</button></li>
                 </ul>
                 <div class="input-field">
                     <input type="text" id="add-input" placeholder="Add New Item"/>
