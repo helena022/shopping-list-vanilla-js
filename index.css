@@ -51,6 +51,9 @@ li {
   padding: 10px;
   text-transform: capitalize;
 }
+.item {
+  padding-left: 10px;
+}
 .footer {
   text-align: center;
   font-size: 18px;
