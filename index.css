@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Kalam&display=swap");
 body {
   background: #c6ffdd; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -28,12 +29,13 @@ body {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 .shopping-list h4 {
+  font-family: "Amatic SC", cursive;
   color: #6fc7bf;
-  font-size: 50px;
+  font-size: 56px;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  padding: 30px 30px;
+  padding: 25px 25px;
   border-bottom: 1px solid #a9ccc9;
 }
 /* list indent fix */
@@ -49,13 +51,16 @@ li {
   text-indent: 20px;
   height: auto;
   padding: 10px;
-  text-transform: capitalize;
 }
 .item {
   padding-left: 10px;
+  font-family: "Kalam", cursive;
+  color: #3a454e;
+  text-transform: capitalize;
 }
 .footer {
   text-align: center;
+  font-family: "Kalam", cursive;
   font-size: 18px;
   color: #a9ccc9;
   padding: 20px;
