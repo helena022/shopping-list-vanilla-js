@@ -1,7 +1,17 @@
 body {
-  background: #C6FFDD;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #c6ffdd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f7797d,
+    #fbd786,
+    #c6ffdd
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f7797d,
+    #fbd786,
+    #c6ffdd
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .container {
   display: flex;
@@ -14,8 +24,8 @@ body {
   font-size: 22px;
   width: 700px;
   background-color: lightyellow;
-  border: 1px solid #D3D3D3;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border: 1px solid #d3d3d3;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 .shopping-list h4 {
   color: #6fc7bf;
@@ -27,11 +37,12 @@ body {
   border-bottom: 1px solid #a9ccc9;
 }
 /* list indent fix */
-ul,li { 
+ul,
+li {
   list-style-type: none;
-  list-style-position:inside;
-  margin:0;
-  padding:0; 
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
 }
 .shopping-list li {
   border-bottom: 1px solid #a9ccc9;
@@ -39,4 +50,10 @@ ul,li {
   height: auto;
   padding: 10px;
   text-transform: capitalize;
+}
+.footer {
+  text-align: center;
+  font-size: 18px;
+  color: #a9ccc9;
+  padding: 20px;
 }
