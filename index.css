@@ -62,7 +62,7 @@ li {
 .btn-remove {
   /*display: none;*/
   padding-left: 10px;
-  background-color: #ffffe0;
+  background-color: transparent;
   border: none;
   font-size: 20px;
   color: #ff6368;
@@ -76,7 +76,7 @@ li {
   color: #3a454e;
   font-family: "Kalam", cursive;
   border: none;
-  background-color: #ffffe0;
+  background-color: transparent;
   width: 240px;
 }
 /* remove outline on input focus */
