@@ -59,6 +59,10 @@ li {
   text-transform: capitalize;
   word-break: break-all;
 }
+input:checked + .item {
+  text-decoration: line-through;
+  color: #5e676f;
+}
 .btn-remove {
   /*display: none;*/
   padding-left: 10px;
